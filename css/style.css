@@ -1,0 +1,16 @@
+ .linear{
+            height: 400px;
+            background: linear-gradient(to right, red, yellow , green, blue);
+        }
+        .bg_heading1{
+            margin-top: 50px;
+            font-size: 80px;
+            text-align: center;
+            color: white;
+            padding-top: 150px;
+        }
+        .redial{
+            height: 600px;
+            background: radial-gradient(circle,black, red, yellow , green, blue);
+            
+        }
