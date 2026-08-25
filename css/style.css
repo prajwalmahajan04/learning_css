@@ -1,4 +1,7 @@
- .linear{
+    
+    /* background.css*/
+
+.linear{
             height: 400px;
             background: linear-gradient(to right, red, yellow , green, blue);
         }
@@ -14,3 +17,87 @@
             background: radial-gradient(circle,black, red, yellow , green, blue);
             
         }
+        .conic{
+            height: 400px;
+            background: conic-gradient(red, yellow , green, blue);
+        }
+        .elipse{
+            height: 400px;
+            background: elipse-gradient(red, yellow , green, blue);
+        }
+
+
+    /*  flex html*/
+
+   .flex-item{
+        background-color: blueviolet;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        color: white;
+        font-size: 50px;
+        border-radius: 15px;
+        border: 3px solid red;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        justify-content: center;
+        list-style: none;
+
+
+    }
+
+    /*  flex gallery  html */
+
+    .flex-item1{
+        background-color: red
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        color: white;
+        font-size: 50px;
+        border-radius: 15px;
+        border: 3px solid red;
+       
+    }
+
+    .flex-container1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        justify-content: center;
+        list-style: none;
+
+    }
+
+
+    /* backgroung img */
+
+
+    .bg_image_example{
+        background-color: red;
+        background-image: url("../images/flower.png");
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-size: cover;
+
+    }
+
+    .bg_heading1{
+        padding-top: 60px;
+        font-size: medium;
+    }
+
+
+    /*   */
+
+    
