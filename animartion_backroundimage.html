@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+            animation: movingbox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+        @keyframes movingbox{
+            0%{background-image:url(images/flower.png);left: 0px;top:0px;}
+            25%{background-image: url(images/krishna.png); left: 300px;top:0px ;}
+            50%{background-image: url(images/Bappa.g.jpg); left: 300px;top: 300px;}
+            75%{background-image: url(images/134168452943625068.jpg);left: 0px;top: 300px;}
+            100%{background-image: url(images/flower.png);left: 0px;top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>
